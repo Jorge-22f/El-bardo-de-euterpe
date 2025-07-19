@@ -83,8 +83,8 @@ el-bardo-euterpe/
 └── README.md
 
 ✨ Identidad Visual
-- Logo: ![Logo El Bardo de Euterpe](https://qqxcerjymfulpjkpcpbd.supabase.co/storage/v1/object/public/business-logos/1/logo.png)
+- ![Logo El Bardo de Euterpe](./public/assets/logo-bardo.png)
 - Eslogan: “Donde cada instrumento guarda una historia, y cada nota encuentra su destino.”
 
 🛤️ Roadmap
-Consulta el tablero [Trello](https://trello.com/b/czDEP12d/el-bardo-de-euterpe) para seguir
+Consulta el tablero [Trello](https://trello.com/invite/b/687ababf7b33494c09432232/ATTIca71ee7316713facc4cc800cd242c43f8A6E2DA5/el-bardo-de-euterpe) para seguir
