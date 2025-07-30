@@ -21,8 +21,10 @@ class User extends Authenticatable
      */
     protected $fillable = [
         'name',
+        'last_name',
         'email',
         'password',
+        'card_balance',
     ];
 
     /**
@@ -45,6 +47,17 @@ class User extends Authenticatable
         return [
             'email_verified_at' => 'datetime',
             'password' => 'hashed',
+            'card_balance' => 'decimal:2',
         ];
+    }
+
+    public function wishlist()
+    {
+        return $this->belongsToMany(Product::class, 'wishlist', 'user_fk', 'product_fk');
+    }
+
+    public function reviews()
+    {
+        return $this->hasMany(Review::class, 'user_fk');
     }
 }
